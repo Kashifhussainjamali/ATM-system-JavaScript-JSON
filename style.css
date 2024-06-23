@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#td4{
+    background-image: url(atm.jpeg);
+    background-size: 230px;
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 100px;
+}
+body{
+    background-image: url(background.webp);
+    /* background-repeat: no-repeat; */
+    background-size: 700px;
+}
+#cardno{
+    width: 100px;
+    margin-left: 58px;
+    margin-bottom: 10px;
+    
+}
+#td4 button{
+    color: white;
+    background-color: rgb(32, 155, 204);
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 130px;
+    margin-bottom: 40px;
+    border: 1px solid rgb(32, 155, 204);
+}
+#td4 button:active{
+    background-color: white;
+    color: black;
+}
+#td1{
+    background-color: skyblue;
+}
+.btn{
+    color: white;
+    background-color: rgb(65, 189, 238);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(65, 189, 238);
+    width: 150px;
+}
+#csbtns,#mainscreen,#buton,#buton1,#td2,#thankyou{
+    visibility:hidden;
+}
+#amount{
+    background-color: white;
+    padding: 5px;
+    height: 20px;
+}
+#Wellcome,#invalid,#csbtns,#mainscreen,#buton,#buton1,#thankyou{
+    margin: 10px;
+}
+#td2{
+    color: white;
+}
+#clear,#back{
+    margin-right: 110px;
+    margin-left: 60px;
+}
+.btn:active,.btn1:active,#btnenter:active,#btncancel:active,#btnclear:Active,#ok:active{
+    background-color: white;
+    color: black;
+}
+.btn1{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+}
+#btnenter{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: green;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 40px;
+}
+#btncancel{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: red;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 40px;
+}
+#btnclear{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 40px;
+}
+#ok{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 40px;
+}
+table{
+    background-color: rgb(26, 25, 25);
+    border-spacing: 10px ;}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <table border="1px">
+            <tr>
+                <td id="td1">
+                    <div id="Wellcome"><b>Wellcome Please Insert Acc Number...</b></div>
+                    <!-- <div id="invalid"><b>Invalid Acc Number</b></div> -->
+                    <div id="csbtns">
+                        <button class="btn" id="cs" onclick="amount()">Current</button>
+                        <button class="btn" id="cs" onclick="amount()">Saving</button>
+                    </div>
+                    <div id="mainscreen">
+                        <label for="amount">Amount:</label><input type="text" name="amount" id="amount">
+                    </div>
+                    <div>
+                        <div id="buton">
+                            <button class="btn" id="clear" onclick="cleaning()">Clear</button>
+                            <button class="btn" id="enter" onclick="enter()">Enter</button>
+                        </div>
+                        <div id="buton1">
+                            <button class="btn" id="back" onclick="back()">Back</button>
+                            <button class="btn" id="recept" onclick="recept()">Recept</button>
+                        </div>
+                    </div>
+                    <div id="thankyou"><b>Thankyou for Using UBL ATM</b></div>
+                </td>
+                <td id="td2">
+                    <div>***************************</div>
+                    <div>ATM</div>
+                    <div id="date"></div>
+                    <div>***************************</div>
+                    <div id="accno"></div>
+                    <div id="withdraw"></div>
+                    <div id="balance"></div>
+                    <br><br>
+                    <div>Thanks for Using ATM</div>
+                    <div>***************************</div>
+                </td>
+            </tr>
+            <tr>
+                <td id="td3">
+                    <div id="numbers">
+                        <div>
+                            <button class="btn1" onclick="one()">1</button>
+                            <button class="btn1" onclick="two()">2</button>
+                            <button class="btn1" onclick="three()">3</button>
+                            <button id="btnenter" onclick="enter()">Enter</button>
+                        </div>
+                        <div>
+                            <button class="btn1" onclick="four()">4</button>
+                            <button class="btn1" onclick="five()">5</button>
+                            <button class="btn1" onclick="six()">6</button>
+                            <button id="btncancel" onclick="back()">Cancel</button>
+                        </div>
+                        <div>
+                            <button class="btn1" onclick="seven()">7</button>
+                            <button class="btn1" onclick="eight()">8</button>
+                            <button class="btn1" onclick="nine()">9</button>
+                            <button id="btnclear" onclick="cleaning()">Clear</button>
+                        </div>
+                        <div>
+                            <button class="btn1" onclick="dot()">.</button>
+                            <button class="btn1" onclick="zero()">0</button>
+                            <button class="btn1" onclick="doubblezero()">00</button>
+                            <button id="ok">Ok</button>
+                        </div>
+                    </div>
+                </td>
+                <td id="td4"><input type="text" name="" id="cardno">
+                <button onclick="check()">Check</button></td>
+            </tr>
+        </table>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
